@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Antena 3</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<meta name="google-site-verification" content="OF_KGAtKr-ZN82aA_DJxo7W_rKcHOHCENI41g22OTLE" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="Logo.png">
+<script src="https://jwpsrv.com/library/ejuoyqCsEeK4ayIACpYGxA.js"></script>
+<script>// <![CDATA[
+    //La Key que debes conseguir en la web de JWPlayer en Hexadecimal
+    jwplayer.key="6RfMdMqZkkH88h026pcTaaEtxNCWrhiF6ACoxKXjjiI=";
+    // ]]></script>
+</head>
+
+<body>
+    <div class="continer">
+        <nav class="nav-main"> 
+            <img src="imagenes/Logo.png" class="nav-brand" />
+            <ul class="nav-menu">  
+           
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="Articles.html">Artículos</a>
+                </li>
+                <li>
+                    <a href="Directos.html">Directos</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <div id="reproductor_wrapper">
+  <object type="application/x-shockwave-flash" data="https://p.jwpcdn.com/6/8/jwplayer.flash.swf" width="100%" height="100%" bgcolor="#000000" id="reproductor" name="reproductor" tabindex="0">
+    <param name="allowfullscreen" value="true">
+    <param name="allowscriptaccess" value="always">
+    <param name="seamlesstabbing" value="true">
+    <param name="wmode" value="opaque">
+  </object>
+  <div id="reproductor_aspect"></div>
+  <div id="reproductor_jwpsrv"></div>
+</div>
+<script>// <![CDATA[
+jwplayer('reproductor').setup({
+    //URL m3u8 que queremos reproducir
+    file: "https://directo.atresmedia.com/2b364454b2c798aa0f1f034aac00a76438dab08a_1625414347/antena3/bitrate_4.m3u8",
+    width: "580",
+    skin: "five",
+    height: "480",
+    title: 'Antena 3',
+    image: "",
+    logo: {
+    file: "",
+    position: 'center',
+    margin: '0',
+    link: ""
+    },
+    stretching: "fill",
+    autostart: "true",
+                abouttext: '',
+            aboutlink: '',
+  });
+// ]]></script>
+</body>
+</html>
